@@ -1,0 +1,26 @@
+.dew-dub {
+  --dew-solar: #ddd;
+  --dew-lunar: #222;
+}
+
+@media (prefers-contrast: more) {
+  .dew-dub {
+    --dew-solar: #eee;
+    --dew-lunar: #111;
+  }
+}
+
+html {
+  font-family: sans-serif;
+  font-size: calc(1em + 1vmax);
+}
+
+body {
+  margin: auto;
+}
+
+nav {
+  padding: 2rem;
+  font-size: calc(2rem + 2vmax);
+  font-weight: bold;
+}
